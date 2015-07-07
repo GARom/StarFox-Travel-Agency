@@ -1,58 +1,21 @@
 ## Starfox Galaxies Travel
 
-### Objective
-
-Create a responsive webpage for the Starfox Galaxies Travel using the  layouts included for reference. Use the **Foundation** framework as the initial basis for your layout, and **Sass**, **gulp**, and **LiveReload** in your workflow.
-
-### Requirements
+### What is Involved
 
 - **Foundation**
- 	- Use **Foundation** as the client-side framework for this layout project. 
-	- Use the Foundation components that are necessary to complete the project. **Do not import all the components.**
+ 	- As the client-side framework for this layout project. 
+	- Not all components of Foundation are used, only the necessary.**
 - **Sass**
-	- Use **Sass** for your css preprocessor.
-	- Practice using **inline media queries**
-	- Practice using **nested styles**
-	- Practice using **variables**	
-	- Practice using **mix-ins**
-	- Because the project uses foundation, you do not need to include your own CSS Reset or Clearfix styles.
+	- For your css preprocessor.
+	- nested style
+	- variable	
 - **Layout**
 	- The mobile layout requires a **dropdown nav**.
-		- **Easy Mode**: Use a custom nav for medium and large sizes and a foundation top-bar for small sizes. Hide the nav you don't need at the appropriate size.
-		- **Hard Mode**: Use only the foundation top-bar for the nav. You will have to override the foundation styles with your own custom styles for both small large layouts.
-	- **Media Query Ranges**: The layouts included show small, medium, and large sizes. Set the media ranges for the project **as you see fit**. Use Foundation's conventions for setting media query ranges.
+	- **Media Query Ranges**: The layouts included show small, medium, and large sizes. 
 - **Server**
-	- Use **LiveReload**.
-	- Utilize **gulp** for your task runner (runs the server, gulp, gulp-sass, and livereload).
+	- **LiveReload**.
+	- Utilized **gulp** for your task runner (runs the server, gulp, gulp-sass, and livereload).
 	- Instructions for **gulp+sass+livereload** setup are [here](https://gist.github.com/theRemix/b9f10de0bead6a7eaf5a)
-	- Be sure that your bower components and node modules are listed in the **.gitignore** file.
-
-### File Structure 
-After you finish setting up your environment, your file structure should look like this:
-
-``` 
-.bowerrc
-.gitignore
-bower.json
-gulpfile.js
-package.json
-/layouts
-	/assets
-/node_modules
-/public
-	/css
-		styles.css
-	/bower_components
-	/images
-	index.html
-/sass
-	styles.scss
-	/partials
-		_foundation.scss
-		_settings.scss
-		(more partials here if needed)
-
-```
 
 ### Process
 
@@ -70,8 +33,3 @@ package.json
 	
 
 ==========
-
-
-The purpose of this exercise is to increase proficiency in web ui layout creation with focus on best practices*, cross-browser compatibility, accuracy, and speed (in this order).  
-
-*best practices in this exercise is defined as "all common, current, and modern best practices in respect to semantic html5 markup[[1]](http://diveintohtml5.info/semantics.html)[[2]](http://html5doctor.com/lets-talk-about-semantics/)[[3]](http://coding.smashingmagazine.com/2011/11/18/html5-semantics/), [validated html](http://validator.w3.org/), [validated css](http://jigsaw.w3.org/css-validator/), and clean javascript[[1]](http://www.thinkful.com/learn/javascript-best-practices-1/)[[2]](http://code.tutsplus.com/tutorials/24-javascript-best-practices-for-beginners--net-5399)[[3]](http://www.thinkful.com/learn/javascript-best-practices-1/)."

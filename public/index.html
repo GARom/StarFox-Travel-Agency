@@ -2,121 +2,143 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>StarFox Intergalactic Travel Agency</title>
-  <!-- <link rel="stylesheet" type="text/css" href="./css/styles.css"> -->
-  <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StarFox Travel Agency</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
   <header>
     <div class="row">
-      <div class="small-12 columns"> <!-- had made this a div but then made to h1 for more nesting -->
-        <h1 class="desktop_logo hide-for-small">
+      <div class="small-12 columns">
+        <h1 class="desktop_logo hide-for-small only">
+        <div class="bar">        
           <a href="#">
-            <span>StarFox</span> Intergalactic Travel Agency
+            <span>StarFox</span> Travel Agency
           </a>
         </h1>
-        <nav class="top-bar" data-topbarRole="navigation">
-          <ul class="title-area-show-for-small">
+
+        <nav class="top-bar show-for-small-only" data-topbar role="navigation">
+          <ul class="title-area show-for-small">
             <li class="name">
               <h1 class="mobile_logo">
-                <a href="mobile_logo">
-                  <span>StarFox</span> Intergalactic Travel Agency
+                <a href="logo">
+                  <span>Star</span>Fox
                 </a>
               </h1>
             </li>
-            <li class="toggle-topbar"><a href="#"><span>ICONHERE</span></a></li>
-          </ul>  
+            <li class="toggle-topbar">
+              <a href="#"></a>
+            </li>
+          </ul>
           <section class="top-bar-section">
-            <!-- Right Nav Section -->
-            <ul class="right">
-              <li><a href="#"></a>Home</li>
-              <li><a href="#"></a>About</li>
-              <li><a href="#"></a>Services</li>
-              <li><a href="#"></a>Interstellar Travel</li>
+            <ul class="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Intersteller Travel</a></li>
             </ul>
           </section>
+        </nav>  <!-- .nav -->
+
+        <nav class="desktop_nav hide-for-small-only">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Intersteller Travel</a></li>
+          </ul>
         </nav>
-      </div><!-- .small-2 columns -->
-    </div><!-- .row -->
+      </div> <!-- .small-12 columns -->
+    </div> <!-- .row -->
   </header>
 
-  <div class="hero">
+  <section>
     <div class="row">
-      <div class="small-12 columns">
-        <div class="hero_text">
-          <p>
-            We wil take you to the <span>Moon and Back</span>! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius inventore est, id minima veritatis ipsum repellat voluptate corporis quam, corrupti nemo saepe. Fugit ad cum modi et rerum hic? Impedit.
-          </p>
-        </div>.<!-- hero_text -->
-        <div class="hero_action">
-          <a class="hero_button">Find Out More</a>
-        </div><!-- .hero_action -->
-      </div><!-- .small-12 -->
-    </div><!-- .row -->
-  </div><!-- .hero -->
+      <div class="large-12 columns">
+        <div class="main_content_wrapper clearfix">
+          <!-- <div class="large-12 columns"> -->
+            <div class="ship_image"><img src="/images/ship.svg" alt=""></div>
+              <div class="main_copy">
+                <h2>We will take you to <span>Corneria and Back!</span> Meet the habitatable planets of Aquas and Zoness. Venture to the rings of Titania or the meteor belt of Meteo. The adventure of the light-year is just around the corner!</h2>
+              </div> <!-- .main_copy -->
+            <div class="main_aside_button"><a class="button" href="#">Find Out More</a></div>
+        </div> <!-- .main_content_wrapper -->
+      </div> <!-- .large-8 columns -->     
+    </div> <!-- .row -->
+  </section>
+  
+  <div class="links">
+    <div class="row">
 
-  <div class="higlights">
-    <div class="row">
-      <div class="large-4 medium-12 small-12 columns">
-        <div class="to_the_moon highlight">
-          <h2 class="hide-for-medium">To the Moon</h2>
-          <h3>$30,000</h3>
-          <div class="highlight_description">
-            <h2 class="hide-for-small hide-for-large">To the Moon</h2>
+      <div class="large-4 columns">
+        <div class="link_container clearfix">
+          <div class="link_heading">
+            <h3>To Aquas</h3>
+          </div>
+          <div class="cost">
+            <h4>$30,000</h4>
+          </div>
+          <div class="description">
             <p>Covers travel fare, lodgings, and meals for 3 months in space.</p>
-          </div><!-- .higlight description -->
-        </div><!-- .highlight -->
-      </div><!-- .large-4 -->
-      <div class="large-4 medium 12 small-12 columns">
-        <div class="just_around_earth highlight">
-          <h2 class="hide-for-medium">Just Around Earth</h2>
-          <h3>$10,00</h3>
-          <div class="higlight_description">
-            <h2 class="hide-for-small hide-for-large">Just Around Earth</h2>
-            <p>Covers travel fare, lodgings, and meals for 3 months in space.</p>
-          </div><!-- .higlight description -->
-        </div><!-- .highlight -->
-      </div><!-- .large-4 -->
-      <div class="large-4 medium =-12 columns show-for-large">
-        <div class="more_details highlight">
-          <div class="just_to_jupiter small_highlights">
-            <h4>Just to Jupiter</h4>
-            <h5>$26,000</h5>
-          </div><!-- .small_highlight -->
-          <div class="center_of_the_earth small_highlight">
-            <h4>Just to Jupiter</h4>
-            <h5>$26,000</h5>
-          </div><!-- .small_highlight -->
-          <a href="#" class="more_details_desktop">More Deals</a>
-        </div><!-- .highlight -->
-      </div><!-- .large-4 -->
-    </div><!-- .row -->
-  </div><!-- .highlights -->      
+          </div>
+        </div>
+      </div> 
 
-  <div class="more_details_container hide-for-large">
-    <div class="row">
-      <div class="small-12 columns">
-        <a href="#" class="more_deals_mobile">More Deals</a>
-      </div>  
-    </div> 
-  </div><!-- .more_deals_container -->
+      <div class="large-4 columns">
+        <div class="link_container clearfix">
+          <div class="link_heading">
+            <h3>Just Around Corneria</h3>
+          </div>
+          <div class="cost">
+            <h4>$10,000</h4>
+          </div>
+          <div class="description">
+            <p>Covers travel fare, lodgings, and meals for 2 weeks in space.</p>
+          </div> <!-- link_heading -->
+        </div> <!-- link_container -->
+      </div> <!-- .large-4 columns -->
 
+      <div class="large-4 columns">
+        <div class="link_container third">
+
+          <div class="small_links">
+            <div class="link_burger_1">
+              <h3>Just to Titania</h3>
+              <h4>$26,000</h4>
+            </div>
+            <div class="link_burger_2">
+              <h3>Around the entire Solar System</h3>
+              <h4>$156,000</h4>
+            </div>
+          </div> <!-- .small_links -->
+
+          <div class="link_deals show-for-large-up">
+            <a href="#">More Deals<img src="/images/arrow.png"></a>
+          </div>
+        </div> <!-- .link_main -->
+      </div> <!-- .large_4 columns -->
+
+    </div>
+  </div> <!-- .links -->
+
+  <div class="link_burger_3 hide-for-large-up">
+    <a href="#">More Deals<img src="/images/arrow.png"></a>
+  </div>
   <footer>
     <div class="row">
-      <div class="small-12 columns">
-        <p>
-          UFO graphics designed by Kari Gaynor and Dmitriy Lagunov from the Noun Project
-        </p>
-      </div><!-- .small-12 -->
-    </div><!-- .row -->
+      <div class="large-12 columns">
+        <p></p>
+      </div>
+    </div>
   </footer>
-  
-  
+
   <script src="/bower_components/modernizr/modernizr.js"></script>
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
- <script src="/bower_components/foundation/js/foundation.min.js"></script>
- <script>
-   $(document).foundation();
- </script>
+  <script src="/bower_components/foundation/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+  
 </body>
 </html>
